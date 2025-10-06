@@ -1,10 +1,10 @@
 package com.dcl.repository;
 
+
 import com.dcl.entity.User;
-
-
+import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.UUID;
 
-public class UserRepository  {
+public interface UserRepository extends JpaRepository<User, UUID> {
 
 }
