@@ -1,4 +1,4 @@
-package com.dcl.entity;
+package com.dcl.accommodate.entity;
 
 public enum Role {
     ADMIN,

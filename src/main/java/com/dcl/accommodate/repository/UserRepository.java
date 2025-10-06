@@ -1,7 +1,7 @@
-package com.dcl.repository;
+package com.dcl.accommodate.repository;
 
 
-import com.dcl.entity.User;
+import com.dcl.accommodate.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.UUID;
 
